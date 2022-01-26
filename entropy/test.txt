@@ -1,0 +1,12 @@
+class MyCalculator():
+    def __init__():
+        self.value = 0.0
+
+    def add(self, num):
+        self.value + num
+        return self
+
+    def multiply(self, num):
+        if num == 0: raise ValueError(“...”)
+        self.value * num
+        return self
